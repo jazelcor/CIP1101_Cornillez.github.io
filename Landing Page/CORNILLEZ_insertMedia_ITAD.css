@@ -1,0 +1,50 @@
+body {
+			font-family: 'Poppins', sans-serif;
+			background-color: lavender;
+			color: black;
+			text-align: justify;
+			padding: 50px;
+		}
+		
+		h1 {
+			font-family: Georgia;
+			color: maroon;
+			text-align: center;
+		}
+		
+		h2 {
+			font-family: Arial;
+			color: maroon;
+			text-align: center;
+		}
+		
+		img {
+			width: 200px;
+			height:150px;
+			padding: 20px;
+			border-radius: 30px;
+		}
+		
+		img:hover {
+			opacity: 0.75;			
+		}
+		
+		.left {
+			float: left;
+		}
+		
+		.right {
+			float: right;
+		}
+		
+		audio {
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+		
+		video {
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
