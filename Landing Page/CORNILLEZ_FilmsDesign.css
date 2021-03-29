@@ -32,9 +32,13 @@ body {
 		}
 		
 		.center {
-			background-color: #00203F;
+			background-image: url("IMAGES/49.jpg");
+			background-color:  #FFEBCC;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment:fixed;
 			margin: auto;
-			border: 3px #A52A2A;;
+			border-bottom : 10px solid #00203F;
 			padding: 110px 50px 20px;
 			text-align: center;
 		}
