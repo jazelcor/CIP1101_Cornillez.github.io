@@ -32,9 +32,12 @@ body {
 		}
 		
 		.center {
-			background-color: #00203F;
+			background-image: url("IMAGES/49.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment:fixed;
 			margin: auto;
-			border: 3px #A52A2A;;
+			border-bottom : 10px solid #00203F;
 			padding: 110px 50px 20px;
 			text-align: center;
 		}
@@ -73,12 +76,14 @@ body {
 			word-spacing: 2.5px;
 			letter-spacing: 1px;
 			padding: 1em;
+			border: 2px outset #eacda3;
+			border-radius: 3px;
 		}
 		
 		a.links:hover {
 			color: #002366;
 			background-color: #FaF1D6;
-			border: 2px outset black;
+			border: 2px outset gray;
 		}
 
 		

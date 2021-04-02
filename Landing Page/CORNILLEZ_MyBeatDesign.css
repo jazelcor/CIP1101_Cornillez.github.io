@@ -4,14 +4,16 @@ body {
 			color: black;
 			font-size: 1em;
 			border: 10px solid #A52A2A;
-			margin: 35px;
+			border-radius: 8px;
+			margin: 60px;
 		}
 		
 		h1 {
+			
 			text-align:center;
 			font-family: 'Bree Serif', Rockwell, serif;
 			font-size: 2.8em;
-			color: #FFFFFF;
+			color: #000000;
 			text-transform:uppercase;
 			word-spacing:8px;
 			letter-spacing:3.5px;
@@ -19,7 +21,7 @@ body {
 		}
 		
 		h2 {
-			color;#00203F;
+			color:#00203F;
 			font-family: Georgia, serif;
 		
 		}
@@ -32,9 +34,13 @@ body {
 		}
 		
 		.center {
-			background-color: #A52A2A;
+			background-image: url("IMAGES/51.jpg");
+			background-repeat: no-repeat;
+			background-attachment:fixed;
+			background-position: center;
+			background-size: 95% 95%;
 			margin: auto;
-			border: 3px #A52A2A;;
+			border-bottom : 10px solid #A52A2A;
 			padding: 110px 50px 20px;
 			text-align: center;
 		}
@@ -73,12 +79,14 @@ body {
 			word-spacing: 2.5px;
 			letter-spacing: 1px;
 			padding: 1em;
+			border: 2px outset #eacda3;
+			border-radius: 3px;
 		}
 		
 		a.links:hover {
 			color: #002366;
 			background-color: #FaF1D6;
-			border: 2px outset black;
+			border: 2px outset gray;
 		}
 
 		
