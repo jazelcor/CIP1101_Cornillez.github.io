@@ -3,14 +3,14 @@ body {
 			font-family: Poppins, Tahoma, sans-serif;
 			color: black;
 			font-size: 1em;
-			padding: 10px 60px;
+			padding: 10px 80px;
 	}
 	
 	h1 {
 			text-align:center;
 			font-family: 'Bree Serif', Rockwell, serif;
 			font-size: 2.8em;
-			color: #FFFFFF;
+			color: #00203F;
 			text-transform:uppercase;
 			word-spacing:8px;
 			letter-spacing:3.5px;
@@ -26,10 +26,16 @@ body {
 	}
 	
 	h3{
-			color: #FFFFFF;
+			color: #00203F;
 			text-align: center;
 	}
-	
+	.box {
+			background-color: #FDF5E6;
+			opacity: 1;
+			margin:60px;
+			padding:20px;
+		
+	}
 	blockquote {
 			text-indent: 60px;
 			text-align: justify;
@@ -109,13 +115,14 @@ body {
 			word-spacing: 2.5px;
 			letter-spacing: 1px;
 			padding: 1em;
-			border: 2px outset white;
+			border: 2px outset #eacda3;
+			border-radius: 3px;
 		}
 		
 		a:hover {
 			color: #002366;
 			background-color: #FaF1D6;
-			border: 3px outset white;
+			border: 2px outset gray;
 		}
 		
 		a:focus {
