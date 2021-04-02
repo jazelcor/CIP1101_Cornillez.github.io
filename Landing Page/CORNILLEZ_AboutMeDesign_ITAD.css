@@ -13,7 +13,7 @@ body {
 			text-transform:uppercase;
 			word-spacing:15px;
 			letter-spacing:2px;
-			padding:40px;
+			padding:45px;
 	}
 	
 	h2 {
@@ -48,13 +48,15 @@ body {
 			word-spacing: 2.5px;
 			letter-spacing: 1px;
 			padding: 1em;
+			border: 2px outset #eacda3;
+			border-radius: 3px;
 
 		}
 		
 		a.links:hover {
 			color: #002366;
 			background-color: #FaF1D6;
-			border: 2px outset black;
+			border: 2px outset gray;
 		}
 
 		
