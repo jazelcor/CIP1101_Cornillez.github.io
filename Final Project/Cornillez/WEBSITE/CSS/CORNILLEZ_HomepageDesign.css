@@ -1,0 +1,77 @@
+body {
+			background-image: url("../IMAGES/landing.png");
+			background-size: cover;
+			margin: 20px 80px;
+
+		}
+		h1 {
+			font-family: 'Spinnaker', sans-serif;
+			font-size: 2.5em;
+			color: #A52A2A;
+			word-spacing: 4px;
+			
+		}
+		
+		.center {
+			padding: 30px;
+			margin: 2px 100px 70px;
+			background-color:rgb(242, 242, 242,0.8);
+			border-radius: 5px;
+			
+		}
+		
+		p {
+			font-family: Poppins, Tahoma, sans-serif;
+		}
+		a.links {
+			color: MidnightBlue;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: Poppins, Tahoma, sans-serif;
+			font-weight: bold;
+			padding: 10px;
+			list-style-type: none;
+		}
+		
+		a.links:hover {
+			color: gray;
+		}
+		
+		a.links:focus {
+			background-color: #D2B48C;
+			color: white;
+			border: 3px inset #D3D3D3;
+		}
+		
+		a.links:active {
+			background-color: white;
+			color: red;
+			font-weight: bold;
+		}
+
+		.option li {
+		  float: right;
+		  list-style-type: none;
+		}
+
+		.option li a {
+		  display: block;
+		  color: MidnightBlue;
+		  text-align: center;
+		  padding: 16px;
+		  text-decoration: none;
+		  font-size: 19px;
+		}
+		
+		img {
+			width: 120px;
+			height:120px;
+			padding: 8px;
+			border-radius: 100px;
+			border: 5px dashed white;
+		}
+		
+		.option {
+			background-color: coral;
+		
+		}
