@@ -1,0 +1,77 @@
+body {
+			background-image: linear-gradient(to right, #FFFFFF, #eacda3);
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: cover;
+			font-family: Poppins, Tahoma, Sans-Serif;
+			color: #000000;
+			margin: 40px 60px;
+			
+	}
+	h1 {
+			font-family: 'Leckerli One', cursive;
+			color: #002366;
+			font-size: 3.3em;
+			float: left;
+			padding: 95px 110px 0px 110px;
+			letter-spacing: 2.5px;
+		}
+	hr {
+			border: 2px dashed #00203F;
+	}
+	p {
+			font-family: Poppins, Tahoma, Sans-Serif;
+			color: #000000;
+			text-align:justify;
+			text-indent: 50px;
+		}
+	ul {
+			list-style-position: inside;
+	}
+	img {
+			border: 5px white solid;
+			border-radius: 5px;
+	}	
+
+	p#desc {
+			font-family: Arial, Sans-Serif;
+			font-size: 20px;
+			text-align: center;
+	}
+	a.links {
+			color: black;
+			text-decoration: none;
+			text-transform: small-caps;
+			font-family: Tahoma, "Sans-Serif";
+			font-weight: bold;
+			background-color:#F9E8D2;
+			word-spacing: 2.5px;
+			letter-spacing: 1px;
+			padding: 1em;
+			font-size: 14px;
+			border: 2px outset #eacda3;
+			border-radius: 5px;
+		}
+		
+		a.links:hover {
+			color: #002366;
+			background-color: #FaF1D6;
+			border: 2px outset gray;
+		}
+
+		
+		a.links:focus {
+			background-color: #D2B48C;
+			color: white;
+			border: 3px inset #D3D3D3;
+		}
+		
+		a.links:active {
+			background-color: #F0FFFF;
+			color: red;
+			font-weight: bold;
+		}
+		
+		a.image:hover {
+			opacity: 0.75;	
+		}
