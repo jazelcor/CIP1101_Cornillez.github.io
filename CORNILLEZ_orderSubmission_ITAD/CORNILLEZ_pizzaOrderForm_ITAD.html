@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>PIZZA ORDER FORM</title>
+    <style type="text/css">
+	* {
+		margin: 0 auto;
+		padding: 0;
+	}
+    table {
+		border: 8px solid #303c6c;
+		border-top: 5px solid #303c6c;;
+		border-collapse: collapse;
+		margin: 10px auto;
+	}
+	td,th {
+		border-bottom:1px solid #b4dfe5;
+		border-collapse: collapse;
+		padding: 15px;
+		border: none;
+	}
+	body {
+		font-family: Tahoma;
+		color: black;
+		font-size: 1.125em;
+	}
+	thead tr {
+		background-color: #ffffe6;
+		border: none;
+	}
+	input[type=text], textarea, select{
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+	input[type=submit] {
+		width: 100%;
+		background-color: #2eb82e;
+		color: white;
+		padding: 14px 20px;
+		margin 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-family: Verdana;
+		font-size: 1.125em;
+	}
+	input[type=submit]: hover {
+		background-color: green;
+		color: white;
+	}
+	textarea {
+		resize: none;
+		font-family: Tahoma;
+	}
+	caption {
+            border: 8px solid #303c6c;
+            background-color: #B22222;
+			color:white;
+            padding: 20px;
+			font-weight:bold;
+			font-size: 2em;
+			border-bottom:none;
+    }
+	.name {
+		background-color: #FFF8DC;
+		border: none;
+		text-align: left;
+		font-size: 1.25em;
+	}
+	.name2 {
+		text-align: center;
+		font-size: 1.125em;
+		border-style: double;
+		
+	}
+	.text{
+		width: 270px;
+		height: 150px;
+	}
+	.qty{
+		width: 95px;
+		height: 47px;
+	}
+	.input{
+		width: 55%;
+		margin: 3%;
+	}
+	img {
+		width: 50px;
+		vertical-align: middle;
+		
+	}
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css"/>
+    <!--CORNILLEZ, JAZEL HANNE-->
+    <!--4.28.2021-->
+    
+	<table>
+		<form method="post" action= "order.html">
+		<caption>PIZZA ORDER FORM &nbsp;<img src="CORNILLEZ_IMAGES_ITAD/pizza.png" alt="This is an image of a pizza."></caption>
+		<thead>
+			<tr class="name">
+				<th colspan="2">CUSTOMER INFORMATION</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td><label for="name">Fullname</label></td><br><br><br>
+				<td><input type="text" name="name" size="30" placeholder="Type your fullname"
+				maxlength="50" autofocus required></td>
+			</tr>
+			
+			<tr>
+				<td><label for="address">Complete Address</label></td>
+				<td><input type="text" name="address" size="30" placeholder="Type your complete address"
+				maxlength="50" autofocus required></td>
+			</tr>
+			
+			<tr>
+				<td><label for="email">Email Address</label></td>
+				<td><input type="text" id="email" name="email" placeholder="myname@example.com"></td>
+			</tr>
+			
+			<tr>		
+				<td><label for="number">Contact Number</label>
+				<td><input type="text" id="number" name="number" placeholder="123-45-678"></td>
+			</tr>
+			
+			<tr>
+				<td><label for="subject">How to get to your place</label><br></td>
+				<td><textarea class="text" id="subject" name="subject" placeholder=""></textarea></td>
+			</tr>
+			
+			<tr class="name">
+                <th colspan="2">ORDER FORM</th>
+			</tr>
+			
+			<tr>
+                <th class="name2" colspan="2">Burger&nbsp;<img src="CORNILLEZ_IMAGES_ITAD/burger.png" alt="This is an image of a burger.">
+				</th>
+				
+			</tr>
+			
+			<tr>
+				<td><label for="select">Make your selection:</label></td>
+				<td>
+					<select name="patty" id="patty" size="1">
+						<option value="Single">Single Patty</option>
+						<option value="Double">Double Patty</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="">Toppings:</label></td>
+				<td>
+					<input type="checkbox" id="feature1" name="feature1" value="cheese">
+						<label for="feature1">cheese</label>
+						
+					<input type="checkbox" id="feature2" name="feature2" value="coleslaw">
+						<label for="feature2">coleslaw</label>
+						
+					<input type="checkbox" id="feature3" name="feature3" value="tomato">
+						<label for="feature3">tomato</label><br>
+					<input type="checkbox" id="feature4" name="feature4" value="onion">
+						<label for="feature4">onion</label>
+					<input type="checkbox" id="feature5" name="feature5" value="cucumber">
+						<label for="feature5">cucumber</label>
+					<input type="checkbox" id="feature6" name="feature6" value="bacon">
+						<label for="feature6">bacon</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="sex">Pick a bun:</label></td>
+				<td>
+					<input type="radio" id="male" name="gender" value="male" checked>
+						<label for="male">White Bun</label>
+					<input type="radio" id="female" name="gender" value="female">
+						<label for="male">Wheat Bun</label><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="subject">Quantity:</label></td>
+				<td><textarea class="qty" id="subject" name="subject" placeholder="Qty"></textarea></td>
+			</tr>
+			
+			<tr>
+                <th class="name2" colspan="2">Pasta&nbsp;<img src="CORNILLEZ_IMAGES_ITAD/pasta.png" alt="This is an image of a pasta.">
+				</th>
+			</tr>
+			
+			<tr>
+				<td><label for="sauce">Sauce:</label></td>
+				<td>
+					<input type="radio" id="feature1" name="feature1" value="carbonara" checked>
+						<label for="feature1">Carbonara</label><br>
+						
+					<input type="radio" id="feature2" name="feature2" value="pesto">
+						<label for="feature2">Pesto</label><br>
+						
+					<input type="radio" id="feature3" name="feature3" value="spaghetti">
+						<label for="feature3">Spaghetti</label><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="sauce">Additional Toppings:</label></td>
+				<td>
+					<input type="checkbox" id="feature1" name="feature1" value="cheese">
+						<label for="feature1">Extra cheese</label>
+						
+					<input type="checkbox" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Extra sauce</label><br>
+						
+					<input type="checkbox" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Extra bacon</label>
+					
+					<input type="checkbox" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Extra tomato</label><br>
+					
+					<input type="checkbox" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Extra mushroom</label>
+					
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="subject">Quantity:</label></td>
+				<td><textarea class="qty" id="subject" name="subject" placeholder="Qty"></textarea></td>
+			</tr>
+			
+			<tr>
+                <th class="name2" colspan="2">Fries&nbsp;<img src="CORNILLEZ_IMAGES_ITAD/fries.png" alt="This is an image of a drinks.">
+				</th>
+			</tr>
+			<tr>
+				<td><label for="size">Size:</label></td>
+				<td>
+					<select name="size" id="size" size="1">
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="Flavor">Flavor:</label></td>
+				<td>
+					<input type="radio" id="feature2" name="feature2" value="cheese" checked>
+						<label for="feature2">Barbeque</label><br>
+						
+					<input type="radio" id="feature3" name="feature3" value="sauce">
+						<label for="feature3">Cheese</label><br>
+						
+					<input type="radio" id="feature4" name="feature4" value="other">
+						<label for="feature4">Sour cream</label><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="subject">Quantity:</label></td>
+				<td><textarea class="qty" id="subject" name="subject" placeholder="Qty"></textarea></td>
+			</tr>
+			
+			<tr>
+                <th class="name2" colspan="2">Drinks&nbsp;<img src="CORNILLEZ_IMAGES_ITAD/drinks.png" alt="This is an image of a drinks.">
+				</th>
+			</tr>
+			
+			<tr>
+				<td><label for="Flavor">Choose your drink:</label></td>
+				<td>
+					<input type="radio" id="feature1" name="feature1" value="cheese">
+						<label for="feature1">Soda</label>	
+					<input type="radio" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Juice</label>
+					<input type="radio" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Iced Tea</label>
+					<input type="radio" id="feature2" name="feature2" value="sauce">
+						<label for="feature2">Water</label><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="size">Size:</label></td>
+				<td>
+					<select name="size" id="size" size="1">
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><label for="subject">Quantity:</label></td>
+				<td><textarea class="qty" id="subject" name="subject" placeholder="Qty"></textarea></td>
+			</tr>
+			
+			<tr>
+				<td><label for="ability">Feedback:</label></td>
+				<td>
+					<textarea class="text" required></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Flavor">Order Type:</label></td>
+				<td>
+					<input type="radio" id="feature1" name="feature1" value="Delivery">
+						<label for="feature1">Delivery</label>
+					<input type="radio" id="feature2" name="feature2" value="Pick-up">
+						<label for="feature2">Pick-up</label>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="2"><input type="submit" value="Submit Form"></th>
+			</tr>
+		</tfoot>
+	</table><br><br>
+</body>
+</html>
